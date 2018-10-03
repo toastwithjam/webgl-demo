@@ -1,0 +1,21 @@
+{
+  "name": "webgl-demo",
+  "version": "1.0.0",
+  "description": "A demo of WebGL that uses TypeScript.",
+  "main": "index.js",
+  "author": "Jamel El-Merhaby",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/gl-matrix": "^2.4.3",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "gl-matrix": "^2.8.1"
+  }
+}
